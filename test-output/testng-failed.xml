@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+    <listener class-name="utilities.Transformer"/>
+  </listeners>
+  <test thread-count="5" name="AllTestCase(failed)" verbose="2">
+    <groups>
+      <run>
+        <include name="master"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TC_02_LoginTest">
+        <methods>
+          <include name="verifyLoginTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_02_LoginTest -->
+      <class name="testCases.TC_01_AccountReg">
+        <methods>
+          <include name="VerifyAcctReg"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_01_AccountReg -->
+    </classes>
+  </test> <!-- AllTestCase(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

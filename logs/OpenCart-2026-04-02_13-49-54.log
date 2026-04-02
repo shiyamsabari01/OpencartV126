@@ -1,0 +1,12 @@
+2026-04-02 13:49:57.931 [main] INFO  TC_01_AccountReg - Initializing browser
+2026-04-02 13:50:04.680 [main] INFO  TC_01_AccountReg - Start Account Register Test
+2026-04-02 13:50:04.709 [main] INFO  TC_01_AccountReg - Navigating Register Page
+2026-04-02 13:50:05.756 [main] INFO  TC_01_AccountReg - Providing Customer Details
+2026-04-02 13:50:07.226 [main] INFO  TC_01_AccountReg - Verifying the confirmation message
+2026-04-02 13:50:07.228 [main] INFO  TC_01_AccountReg - Completed Account register Test
+2026-04-02 13:50:09.447 [main] INFO  TC_02_LoginTest - Initializing browser
+2026-04-02 13:50:10.156 [main] INFO  TC_02_LoginTest - Started Login Page Test
+2026-04-02 13:50:10.400 [main] INFO  TC_02_LoginTest - Navigated to Login Page
+2026-04-02 13:50:11.100 [main] INFO  TC_02_LoginTest - Provide valid Username and Password
+2026-04-02 13:50:11.447 [main] INFO  TC_02_LoginTest - Verify the My Account Page...Heading
+2026-04-02 13:50:12.090 [main] INFO  TC_02_LoginTest - Completed Login Page Test
